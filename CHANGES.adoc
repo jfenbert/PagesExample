@@ -1,0 +1,17 @@
+= OpenVSP3Plugin Changelog
+
+This document provides a high-level view of the changes introduced in OpenVSP3Plugin by release.
+
+== 2.0.6 (2017-12-18)
+
+Bug fixes::
+	* Fixed null pointer when reading OpenVSP 3.14.1 files.
+	  This was due to changes in the OpenVSP xml file. Removed hard coded container names and just read what is there.
+	* Fixed not being able to expose CFD mesh files.
+	* Better handling of OpenVSP_EXE environment variable not set.
+	  Shows error dialog instead of writing a error to the console that probably isn't open.
+
+== 2.0.5 (2017-12-08)
+
+Initial GitHub open source release.
+
